@@ -1,0 +1,17 @@
+{
+    "Auth" : {
+        "tokenUrl"    : "https://example.com/token.oauth2",
+        "tokenType"   : "OAUTH"
+    },
+    "Azure" : {
+        "keyvaultURI" : "https://testkeyvault.vault.azure.net/"
+    },
+    "Snowflake" : {
+        "account"     : "TESTACCOUNT",
+        "database"    : "TESTDB",
+        "schema"      : "TESTSCHEMA",
+        "warehouse"   : "TESTWH",
+        "role"        : "TESTROLE",
+        "userAgent"   : "SnowflakeSQLAPIApp/1.0"
+    }
+}
